@@ -1,6 +1,7 @@
 import React from "react"
 
 import Layout from "../layout/Layout"
+import Layout_Index from "../layout/Layout_Index"
 import Portfolio_Image from "../images/Portfolio_Image.jpg"
 import Digital_Shelfie from "../images/Digital_Shelfie.png"
 import Ubuntu from "../images/Ubuntu.png"
@@ -48,6 +49,13 @@ const Home = () => {
           </div>
 
           <br />
+
+          <div>
+            <h1>Tech Skills</h1>
+            <section>
+              <Layout_Index />
+            </section>
+          </div>
 
           <div id="projects" name="projects">
             <h1>My Projects</h1>
