@@ -1,0 +1,61 @@
+body {
+  background-color: grey;
+}
+
+nav {
+  background-color: green;
+}
+
+nav li {
+  display: inline-block;
+  padding: 2%;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+#introduction {
+  background-color: sandybrown;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#intro-pic {
+  margin-top: 5%;
+  flex: row;
+  margin-left: 10%;
+  height: 500px;
+  width: 400px;
+}
+
+#bio {
+  font-size: xx-large;
+  float: right;
+  display: block;
+  max-width: 600px;
+  margin-top: 8%;
+  margin-right: 15%;
+}
+
+.contact {
+  display: inline-block;
+  padding: 2%;
+  font-size: xx-large;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+#projects {
+  max-width: 100%;
+}
+
+.project-images {
+  height: 500px;
+  width: 800px;
+  flex: row;
+  margin: 2% 2% 2% 2%;
+  box-shadow: 13px 15px 0 0 black;
+}
