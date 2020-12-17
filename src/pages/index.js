@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../layout/Layout"
-import Layout_Index from "../layout/Layout_Index"
+import Skills from "../layout/skills"
 import Portfolio_Image from "../images/Portfolio_Image.jpg"
 import Digital_Shelfie from "../images/Digital_Shelfie.png"
 import Ubuntu from "../images/Ubuntu.png"
@@ -53,42 +53,8 @@ const Home = () => {
           <div>
             <h1>Tech Skills</h1>
             <section>
-              <Layout_Index />
+              <Skills />
             </section>
-          </div>
-
-          <div id="projects" name="projects">
-            <h1>My Projects</h1>
-
-            <img src={Digital_Shelfie} id="shelfie" class="project-images" />
-            <button id="shelfie-live-site">
-              <a href="https://digital-shelfie.herokuapp.com/" target="_blank">
-                Shelfie
-              </a>
-            </button>
-
-            <img src={MTG_Search} id="mtg" class="project-images" />
-            <button id="mtg-live-site">
-              <a
-                href="https://magic-the-gathering-search.vercel.app/"
-                target="_blank"
-              >
-                MTG
-              </a>
-            </button>
-
-            <img src={Ubuntu} id="ubuntu" class="project-images" />
-            <button id="mtg-live-site">
-              <a
-                href="https://practical-jones-b55cd9.netlify.app/"
-                target="_blank"
-              >
-                Ubuntu
-              </a>
-            </button>
-
-            <img src={Landscaper} id="mtg" class="project-images" />
-            <img src={Space_Battle} id="mtg" class="project-images" />
           </div>
         </body>
       </html>
