@@ -1,15 +1,15 @@
 import React from "react"
-
+// Styles
 import Layout from "../layout/Layout"
 import Skills from "../layout/skills"
+import Style from "../styles/style.css"
+
 import Portfolio_Image from "../images/Portfolio_Image.jpg"
 import Digital_Shelfie from "../images/Digital_Shelfie.png"
 import Ubuntu from "../images/Ubuntu.png"
 import MTG_Search from "../images/MTG_Search.png"
 import Landscaper from "../images/Landscaper.png"
 import Space_Battle from "../images/Space_Battle.png"
-
-import Style from "../styles/style.css"
 
 const Home = () => {
   return (

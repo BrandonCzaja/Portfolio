@@ -7,12 +7,12 @@ const Projects = () => {
   return (
     <>
       <Layout>
-        <h1>My Projects Page</h1>
+        {" "}
+        <div id="projects" name="projects">
+          <h1>My Projects</h1>
+          <Projects_Images />
+        </div>
       </Layout>
-      <div id="projects" name="projects">
-        <h1>My Projects</h1>
-        <Projects_Images />
-      </div>
     </>
   )
 }

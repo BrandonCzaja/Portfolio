@@ -1,0 +1,16 @@
+#projects {
+  max-width: 100%;
+}
+
+.project-images {
+  height: 500px;
+  width: 800px;
+  flex: row;
+  margin: 2% 2% 2% 2%;
+  box-shadow: 13px 15px 0 0 black;
+}
+
+#mtg-live-site {
+  display: inline-block;
+  margin-right: 90%;
+}
