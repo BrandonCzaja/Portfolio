@@ -1,3 +1,7 @@
+* {
+  border: 1px solid black;
+}
+
 body {
   background-color: grey;
 }
@@ -13,6 +17,8 @@ nav li {
 
 nav li a:hover {
   color: white;
+  background-color: black;
+  height: 100%;
 }
 
 #introduction {
@@ -46,6 +52,11 @@ nav li a:hover {
 
 h1 {
   margin: 0 auto;
+}
+
+#mtg-live-site {
+  display: inline-block;
+  margin-right: 90%;
 }
 
 #projects {
