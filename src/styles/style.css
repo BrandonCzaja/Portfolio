@@ -3,26 +3,33 @@
 }
 
 body {
-  background-color: grey;
+  background-color: rgb(64, 202, 202);
 }
 
 nav {
   background-color: green;
 }
 
-nav li {
-  display: inline-block;
-  padding: 2%;
+nav a {
+  text-decoration: none;
 }
 
-nav li a:hover {
+nav li:hover {
   color: white;
   background-color: black;
   height: 100%;
 }
 
+nav li {
+  flex: row;
+  display: inline-block;
+  font-size: xx-large;
+  margin: 2%;
+  height: 100%;
+}
+
 #introduction {
-  background-color: sandybrown;
+  background-color: grey;
   width: 75%;
   margin: 0 auto;
 }
@@ -31,23 +38,24 @@ nav li a:hover {
   margin-top: 5%;
   flex: row;
   margin-left: 10%;
-  height: 500px;
-  width: 400px;
+  height: 300px;
+  width: 250px;
 }
 
 #bio {
-  font-size: xx-large;
+  font-size: x-large;
   float: right;
   display: block;
   max-width: 600px;
   margin-top: 8%;
-  margin-right: 15%;
+  margin-right: 5%;
 }
 
 .contact {
   display: inline-block;
   padding: 2%;
-  font-size: xx-large;
+  font-size: large;
+  margin: 0 auto;
 }
 
 h1 {
