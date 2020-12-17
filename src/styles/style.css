@@ -1,11 +1,22 @@
+/* iPhone X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  body {
+    background-color: #335c81;
+  }
+
+  nav {
+    /* background-color: rgb(20, 39, 68); */
+    background-color: #244766;
+  }
+}
+
 body {
   background-color: #335c81;
 }
 
 nav {
   /* background-color: rgb(20, 39, 68); */
-  background-color: #335c81;
-  border-bottom: solid black;
+  background-color: #244766;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -22,6 +33,7 @@ nav a {
 
 nav a:hover {
   background-color: peachpuff;
+  cursor: pointer;
 }
 
 nav li {

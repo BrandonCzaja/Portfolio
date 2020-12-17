@@ -1,5 +1,6 @@
 import React from "react"
 // Styles
+import bootstrap from "bootstrap"
 import Layout from "../layout/Layout"
 import Skills from "../layout/skills"
 import Style from "../styles/style.css"
