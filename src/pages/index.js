@@ -15,13 +15,14 @@ const Home = () => {
   return (
     <>
       <html>
-        <Layout></Layout>
+        <Layout> </Layout>
 
         <body>
           <div id="introduction">
             <img src={Portfolio_Image} id="intro-pic" />
             <p class="bio" id="bio">
-              I am a team-oriented, goal-driven, full stack developer
+              <span id="greeting">Welcome! I'm Brandon Czaja.</span> <br />
+              <br /> I am a team-oriented, goal-driven, full stack developer
               experienced in JavaScript, Ruby on Rails, Django, and React, with
               a side passion for history. I love programming because it is a lot
               like history; individual lines of code may seem small and
@@ -51,7 +52,7 @@ const Home = () => {
           <br />
 
           <div>
-            <h1>Tech Skills</h1>
+            <br />
             <section>
               <Skills />
             </section>
