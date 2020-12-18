@@ -3,11 +3,13 @@
 } */
 
 .project-description {
-  margin-top: 10%;
+  background-color: #424242;
+  padding: 1%;
+  margin-top: 15%;
   width: 40%;
   font-size: x-large;
   text-align: center;
-  margin-left: 30%;
+  margin-left: 29%;
   color: #ffffff;
 }
 
@@ -18,20 +20,6 @@
   margin-left: auto;
 }
 
-.github {
-  flex: row;
-  display: inline-block;
-  font-size: xx-large;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ffffff;
-}
-
-.site {
-  flex: row;
-  display: inline-block;
-  font-size: xx-large;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ffffff;
+.ubuntu {
+  margin-bottom: 10%;
 }

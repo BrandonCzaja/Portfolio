@@ -1,12 +1,14 @@
 import React from "react"
 
 import Layout from "../layout/Layout"
+import My_Resume from "../images/My_Resume.pdf"
 
 const Resume = () => {
   return (
-    <Layout>
-      <h1>My Resume Page</h1>
-    </Layout>
+    <>
+      <Layout></Layout>
+      <img src="My_Resume" />
+    </>
   )
 }
 

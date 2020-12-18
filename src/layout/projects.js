@@ -20,57 +20,33 @@ const Project_Images = props => {
           is an application that lets board gamers show off their collection to
           the rest of the community. Users sign up, log in, and enter the game's
           information.In the next update users will be able to search for their
-          games using the Board Game Atlas API. Technologies used:
+          games using the Board Game Atlas API. <br />
+          <br /> Technologies used: MongoDB, Express, React, Node (MERN)
         </p>
-        <ul>
-          <li></li>
-        </ul>
+
         <img src={Digital_Shelfie} alt="Shelfie" class="projects" />
-        <ul>
-          <li class="github">
-            <a href="">GitHub</a>
-          </li>
-          <li class="site">
-            <a href="">Site</a>
-          </li>
-        </ul>
 
         <p class="project-description">
-          MTG Search allows players to to search for individual card by sending
-          fetch requests to the Scryfall API. Players can also view the symbols
-          for each set by clicking through the carousel which accesses the Magic
-          The Gathering API. The next update will allow users to view the entire
-          Card Image Gallery for each set by clicking the set symbol.
-          Technologies used:
+          <em>MTG Search </em>allows players to to search for individual card by
+          sending fetch requests to the Scryfall API. Players can also view the
+          symbols for each set by clicking through the carousel which accesses
+          the Magic The Gathering API. The next update will allow users to view
+          the entire Card Image Gallery for each set by clicking the set symbol.{" "}
+          <br />
+          <br /> Technologies used: HTML, CSS, JavaScript, jQuery
         </p>
-        <ul>
-          <li></li>
-        </ul>
-        <img src={MTG_Search} alt="MTG Search" class="projects" />
-        <ul>
-          <li class="github">
-            <a href="">GitHub</a>
-          </li>
-          <li class="site">
-            <a href="">Site</a>
-          </li>
-        </ul>
 
-        <p class="project-description">
+        <img src={MTG_Search} alt="MTG Search" class="projects" />
+
+        <p class="project-description ">
           <em>Ubuntu: I am because we are</em>, allows users to login with JWT
           authentication and create charitable events for their local community.
           The next update will allow users to search for events in their
-          community using Google Maps. Technologies used:
+          community using Google Maps. <br />
+          <br /> Technologies used: MongoDB, Express, React, Node (MERN)
         </p>
-        <img src={Ubuntu} alt="Ubuntu" class="projects" />
-        <ul>
-          <li class="github">
-            <a href="">GitHub</a>
-          </li>
-          <li class="site">
-            <a href="">Site</a>
-          </li>
-        </ul>
+        <img src={Ubuntu} alt="Ubuntu" class="projects ubuntu" />
+
         {/* 
         <p class="project-description">Landscaper Description</p>
         <img src={Landscaper} alt="Landscaper" class="projects" />
