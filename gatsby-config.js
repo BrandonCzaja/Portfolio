@@ -17,13 +17,7 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/static/images/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `icons`,
-        path: `${__dirname}/static/images/icons/`,
+        ignore: ["**/.*"],
       },
     },
     {
@@ -31,6 +25,7 @@ module.exports = {
       options: {
         name: `markdown`,
         path: `${__dirname}/src/mark/`,
+        ignore: ["**/.*"],
       },
     },
     `gatsby-transformer-remark`,
