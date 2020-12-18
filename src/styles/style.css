@@ -1,11 +1,9 @@
-/* iPhone X */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   body {
     background-color: #335c81;
   }
 
   nav {
-    /* background-color: rgb(20, 39, 68); */
     background-color: #244766;
   }
 }
@@ -15,7 +13,6 @@ body {
 }
 
 nav {
-  /* background-color: rgb(20, 39, 68); */
   background-color: #244766;
   position: fixed;
   z-index: 1;
@@ -24,23 +21,23 @@ nav {
   width: 100%;
 }
 
+nav li {
+  flex: row;
+  display: inline-block;
+  font-size: xx-large;
+  margin: 0 9%;
+}
+
 nav a {
   color: #ffffff;
-  float: left;
   text-align: center;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: peachpuff;
+  background-color: #ffcc66;
+  color: #244766;
   cursor: pointer;
-}
-
-nav li {
-  flex: row;
-  display: inline-block;
-  font-size: xx-large;
-  margin: 0 2%;
 }
 
 #introduction {
@@ -71,10 +68,10 @@ nav li {
 
 .contact {
   color: #ffffff;
+  padding: 3%;
+  flex: row;
   display: inline-block;
-  padding: 2%;
   font-size: x-large;
-  margin: 0 auto;
 }
 
 .contact a {

@@ -1,16 +1,37 @@
-#projects {
-  max-width: 100%;
+/* * {
+  border: 1px solid black;
+} */
+
+.project-description {
+  margin-top: 10%;
+  width: 40%;
+  font-size: x-large;
+  text-align: center;
+  margin-left: 30%;
+  color: #ffffff;
 }
 
-.project-images {
-  height: 500px;
-  width: 800px;
+.projects {
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.github {
   flex: row;
-  margin: 2% 2% 2% 2%;
-  box-shadow: 13px 15px 0 0 black;
+  display: inline-block;
+  font-size: xx-large;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
 }
 
-#mtg-live-site {
+.site {
+  flex: row;
   display: inline-block;
-  margin-right: 90%;
+  font-size: xx-large;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
 }

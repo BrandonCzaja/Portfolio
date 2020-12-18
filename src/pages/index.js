@@ -1,6 +1,6 @@
 import React from "react"
 // Styles
-import bootstrap from "bootstrap"
+
 import Layout from "../layout/Layout"
 import Skills from "../layout/skills"
 import Style from "../styles/style.css"
@@ -35,7 +35,7 @@ const Home = () => {
 
             <ul>
               <li class="contact" id="contact-information">
-                Contact Information:
+                Chicago, IL
               </li>
               <li class="contact">Brandon.Czaja@gmail.com</li>
               <li class="contact">603-540-3182</li>
