@@ -5,7 +5,7 @@ import { useStaticQuery } from "gatsby"
 import projects from "../styles/projects.css"
 
 // Projects
-import Shelfie from "../../static/imagesShelfie.png"
+import Shelfie from "../../static/images/Shelfie.png"
 import Ubuntu from "../../static/images/Ubuntu.png"
 import MTG_Search from "../../static/images/MTG_Search.png"
 
