@@ -8,8 +8,6 @@ export default function Blog({ data }) {
 
   return (
     <Layout>
-      <h1>My blog posts</h1>
-
       {posts.map(post => (
         <article key={post.id}>
           <Link to={post.fields.slug}>

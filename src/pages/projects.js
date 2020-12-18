@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import { useStaticQuery } from "gatsby"
 
 import Layout from "../layout/Layout"
 import Projects_Images from "../layout/projects"

@@ -1,12 +1,14 @@
 import React from "react"
-import { useStaticQuery } from "gatsby"
 
 import Layout from "../layout/Layout"
+import Resume_Layout from "../layout/resume_layout"
 
-const Resume = () => {
+const Resume = props => {
   return (
     <>
-      <Layout></Layout>
+      <Layout>
+        <Resume_Layout />
+      </Layout>
     </>
   )
 }

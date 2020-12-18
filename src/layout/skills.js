@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import { useStaticQuery } from "gatsby"
 
 import skills from "../styles/skills.css"
 
@@ -27,54 +25,37 @@ const Skills = props => {
       <h1>Tech Skills</h1>
 
       <section id="skills">
-        <Link>
-          <img src={css3} alt="CSS 3" class="tech modal" id="css" />
-        </Link>
-        <Link>
-          <img src={django} alt="Django" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={html} alt="HTML 5" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={javascript} alt="Javascript" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={mongo} alt="Mongo" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={node} alt="Node" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={postgres} alt="Postgres" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={postman} alt="Postman" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={python} alt="Python" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={rails} alt="Rails" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={react} alt="React" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={ruby} alt="Ruby" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={jquery} alt="jQuery" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={jira} alt="Jira" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={git} alt="Git" class="tech modal" />
-        </Link>
-        <Link>
-          <img src={github} alt="Github" class="tech modal" />
-        </Link>
+        <img src={css3} alt="CSS 3" class="tech modal" id="css" />
+
+        <img src={django} alt="Django" class="tech modal" />
+
+        <img src={html} alt="HTML 5" class="tech modal" />
+
+        <img src={javascript} alt="Javascript" class="tech modal" />
+
+        <img src={mongo} alt="Mongo" class="tech modal" />
+
+        <img src={node} alt="Node" class="tech modal" />
+
+        <img src={postgres} alt="Postgres" class="tech modal" />
+
+        <img src={postman} alt="Postman" class="tech modal" />
+
+        <img src={python} alt="Python" class="tech modal" />
+
+        <img src={rails} alt="Rails" class="tech modal" />
+
+        <img src={react} alt="React" class="tech modal" />
+
+        <img src={ruby} alt="Ruby" class="tech modal" />
+
+        <img src={jquery} alt="jQuery" class="tech modal" />
+
+        <img src={jira} alt="Jira" class="tech modal" />
+
+        <img src={git} alt="Git" class="tech modal" />
+
+        <img src={github} alt="Github" class="tech modal" />
       </section>
     </div>
   )
