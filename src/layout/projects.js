@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import projects from "../styles/projects.css"
 
@@ -24,7 +25,9 @@ const Project_Images = props => {
           <br /> Technologies used: MongoDB, Express, React, Node (MERN)
         </p>
 
-        <img src={Digital_Shelfie} alt="Shelfie" class="projects" />
+        <Link>
+          <img src={Digital_Shelfie} alt="Shelfie" class="projects" />
+        </Link>
 
         <p class="project-description">
           <em>MTG Search </em>allows players to to search for individual card by
@@ -36,7 +39,9 @@ const Project_Images = props => {
           <br /> Technologies used: HTML, CSS, JavaScript, jQuery
         </p>
 
-        <img src={MTG_Search} alt="MTG Search" class="projects" />
+        <Link>
+          <img src={MTG_Search} alt="MTG Search" class="projects" />
+        </Link>
 
         <p class="project-description ">
           <em>Ubuntu: I am because we are</em>, allows users to login with JWT
@@ -45,7 +50,10 @@ const Project_Images = props => {
           community using Google Maps. <br />
           <br /> Technologies used: MongoDB, Express, React, Node (MERN)
         </p>
-        <img src={Ubuntu} alt="Ubuntu" class="projects ubuntu" />
+
+        <Link>
+          <img src={Ubuntu} alt="Ubuntu" class="projects ubuntu" />
+        </Link>
 
         {/* 
         <p class="project-description">Landscaper Description</p>

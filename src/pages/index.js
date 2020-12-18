@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 // Styles
 
 import Layout from "../layout/Layout"
@@ -20,7 +21,9 @@ const Home = () => {
 
         <body>
           <div id="introduction">
-            <img src={Portfolio_Image} id="intro-pic" />
+            <Link>
+              <img src={Portfolio_Image} id="intro-pic" />
+            </Link>
             <p class="bio" id="bio">
               <span id="greeting">Welcome! I'm Brandon Czaja.</span> <br />
               <br /> I am a team-oriented, goal-driven, full stack developer
