@@ -9,14 +9,21 @@ module.exports = {
   siteMetadata: {
     title: "My New Blog",
     description: "This is my awesome blog I made from scratch!",
-    cheese: "gouda"
+    cheese: "gouda",
   },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images/`,
+        path: `${__dirname}/static/images/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `icons`,
+        path: `${__dirname}/static/images/icons/`,
       },
     },
     {

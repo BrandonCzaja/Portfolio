@@ -9,7 +9,7 @@ import Skills from "../layout/skills"
 import Style from "../styles/style.css"
 
 import Portfolio_Image from "../../static/images/Portfolio_Image.jpg"
-import Digital_Shelfie from "../../static/images/Digital_Shelfie.png"
+import Shelfie from "../../static/images/Shelfie.png"
 import Ubuntu from "../../static/images/Ubuntu.png"
 import MTG_Search from "../../static/images/MTG_Search.png"
 

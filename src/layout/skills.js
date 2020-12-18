@@ -29,20 +29,50 @@ const Skills = props => {
       <section id="skills">
         <Link>
           <img src={css3} alt="CSS 3" class="tech modal" id="css" />
+        </Link>
+        <Link>
           <img src={django} alt="Django" class="tech modal" />
+        </Link>
+        <Link>
           <img src={html} alt="HTML 5" class="tech modal" />
+        </Link>
+        <Link>
           <img src={javascript} alt="Javascript" class="tech modal" />
+        </Link>
+        <Link>
           <img src={mongo} alt="Mongo" class="tech modal" />
+        </Link>
+        <Link>
           <img src={node} alt="Node" class="tech modal" />
+        </Link>
+        <Link>
           <img src={postgres} alt="Postgres" class="tech modal" />
+        </Link>
+        <Link>
           <img src={postman} alt="Postman" class="tech modal" />
+        </Link>
+        <Link>
           <img src={python} alt="Python" class="tech modal" />
+        </Link>
+        <Link>
           <img src={rails} alt="Rails" class="tech modal" />
+        </Link>
+        <Link>
           <img src={react} alt="React" class="tech modal" />
+        </Link>
+        <Link>
           <img src={ruby} alt="Ruby" class="tech modal" />
+        </Link>
+        <Link>
           <img src={jquery} alt="jQuery" class="tech modal" />
+        </Link>
+        <Link>
           <img src={jira} alt="Jira" class="tech modal" />
+        </Link>
+        <Link>
           <img src={git} alt="Git" class="tech modal" />
+        </Link>
+        <Link>
           <img src={github} alt="Github" class="tech modal" />
         </Link>
       </section>

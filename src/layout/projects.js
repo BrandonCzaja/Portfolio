@@ -5,7 +5,7 @@ import { useStaticQuery } from "gatsby"
 import projects from "../styles/projects.css"
 
 // Projects
-import Digital_Shelfie from "../../static/Digital_Shelfie.png"
+import Shelfie from "../../static/imagesShelfie.png"
 import Ubuntu from "../../static/images/Ubuntu.png"
 import MTG_Search from "../../static/images/MTG_Search.png"
 
@@ -25,7 +25,7 @@ const Project_Images = props => {
         </p>
 
         <Link>
-          <img src={Digital_Shelfie} alt="Shelfie" class="projects" />
+          <img src={Shelfie} alt="Shelfie" class="projects" />
         </Link>
 
         <p class="project-description">
@@ -53,29 +53,6 @@ const Project_Images = props => {
         <Link>
           <img src={Ubuntu} alt="Ubuntu" class="projects ubuntu" />
         </Link>
-
-        {/* 
-        <p class="project-description">Landscaper Description</p>
-        <img src={Landscaper} alt="Landscaper" class="projects" />
-        <ul>
-          <li class="github">
-            <a href="">GitHub</a>
-          </li>
-          <li class="site">
-            <a href="">Site</a>
-          </li>
-        </ul>
-
-        <p class="project-description">Space Battle Description</p>
-        <img src={Space_Battle} alt="Space Battle" class="projects" />
-        <ul>
-          <li class="github">
-            <a href="">GitHub</a>
-          </li>
-          <li class="site">
-            <a href="">Site</a>
-          </li>
-        </ul> */}
       </section>
     </div>
   )
