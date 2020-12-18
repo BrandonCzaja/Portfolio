@@ -1,17 +1,17 @@
 import React from "react"
+import Gatsby from "gatsby"
 import { Link } from "gatsby"
+import { useStaticQuery } from "gatsby"
 // Styles
 
 import Layout from "../layout/Layout"
 import Skills from "../layout/skills"
 import Style from "../styles/style.css"
 
-import Portfolio_Image from "../images/Portfolio_Image.jpg"
-import Digital_Shelfie from "../images/Digital_Shelfie.png"
-import Ubuntu from "../images/Ubuntu.png"
-import MTG_Search from "../images/MTG_Search.png"
-import Landscaper from "../images/Landscaper.png"
-import Space_Battle from "../images/Space_Battle.png"
+import Portfolio_Image from "../../static/images/Portfolio_Image.jpg"
+import Digital_Shelfie from "../../static/images/Digital_Shelfie.png"
+import Ubuntu from "../../static/images/Ubuntu.png"
+import MTG_Search from "../../static/images/MTG_Search.png"
 
 const Home = () => {
   return (

@@ -1,6 +1,8 @@
 // Styling and Scripts go here
 
 import React from "react"
+import { Link } from "gatsby"
+import { useStaticQuery } from "gatsby"
 
 const Layout = props => {
   return (
@@ -12,16 +14,16 @@ const Layout = props => {
         <div id="div-wrapper">
           <nav>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/projects">Projects</a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="/resume">Resume</a>
+              <Link to="/resume">Resume</Link>
             </li>
             <li>
-              <a href="/blogs">Blogs</a>
+              <Link to="/blogs">Blogs</Link>
             </li>
           </nav>
         </div>

@@ -1,14 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
+import { useStaticQuery } from "gatsby"
 
 import projects from "../styles/projects.css"
 
 // Projects
-import Digital_Shelfie from "../../public/images/Digital_Shelfie.png"
-import Ubuntu from "../../public/images/Ubuntu.png"
-import MTG_Search from "../../public/images/MTG_Search.png"
-import Landscaper from "../../public/images/Landscaper.png"
-import Space_Battle from "../../public/images/Space_Battle.png"
+import Digital_Shelfie from "../../static/Digital_Shelfie.png"
+import Ubuntu from "../../static/images/Ubuntu.png"
+import MTG_Search from "../../static/images/MTG_Search.png"
 
 const Project_Images = props => {
   return (
