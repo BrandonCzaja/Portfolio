@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../layout/Layout"
 import { useStaticQuery } from "gatsby"
+import blogs from "../styles/blogs.css"
 
 export default function Blog({ data }) {
   const { posts } = data.blog

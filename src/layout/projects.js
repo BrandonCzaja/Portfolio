@@ -26,8 +26,15 @@ const Project_Images = props => {
 
           <img src={Shelfie} alt="Shelfie" class="projects" />
 
-          <a href="https://github.com/BrandonCzaja/Digital-Shelfie">GitHub</a>
-          <a href="https://digital-shelfie.herokuapp.com/">Live Site</a>
+          <a
+            href="https://github.com/BrandonCzaja/Digital-Shelfie"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          <a href="https://digital-shelfie.herokuapp.com/" target="_blank">
+            Live Site
+          </a>
         </div>
 
         <div class="mtg">
@@ -43,8 +50,15 @@ const Project_Images = props => {
 
           <img src={MTG_Search} alt="MTG Search" class="projects" />
 
-          <a href="https://github.com/BrandonCzaja/MTGSearch">GitHub</a>
-          <a href="https://magic-the-gathering-search.vercel.app/">Live Site</a>
+          <a href="https://github.com/BrandonCzaja/MTGSearch" target="_blank">
+            GitHub
+          </a>
+          <a
+            href="https://magic-the-gathering-search.vercel.app/"
+            target="_blank"
+          >
+            Live Site
+          </a>
         </div>
 
         <div class="charity">
@@ -61,18 +75,21 @@ const Project_Images = props => {
           <a
             href="https://github.com/BrandonCzaja/Ubuntu-Backend"
             class="ubuntu-links"
+            target="_blank"
           >
             Backend GitHub
           </a>
           <a
             href="https://github.com/BrandonCzaja/Ubuntu-Frontend"
             class="ubuntu-links"
+            target="_blank"
           >
             Frontend GitHub
           </a>
           <a
             href="https://practical-jones-b55cd9.netlify.app/"
             class="ubuntu-links"
+            target="_blank"
           >
             Live Site
           </a>

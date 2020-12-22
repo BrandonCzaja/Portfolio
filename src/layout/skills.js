@@ -25,70 +25,37 @@ const Skills = props => {
       <h1>Technological Skills</h1>
 
       <section id="skills">
-        <div class="tech wrap">
-          <img src={css3} alt="CSS 3" class="tech " />
-          <p class="img-text">CSS 3</p>
-        </div>
-        <div class="tech wrap">
-          <img src={django} alt="Django" class="tech" />
-          <p class="img-text">Django</p>
-        </div>
-        <div class="tech wrap">
-          <img src={html} alt="HTML 5" class="tech" />
-          <p class="img-text">HTML 5</p>
-        </div>
-        <div class="tech wrap">
-          <img src={javascript} alt="Javascript" class="tech" />
-          <p class="img-text">Javascript</p>
-        </div>
-        <div class="tech wrap">
-          <img src={mongo} alt="Mongo" class="tech" />
-          <p class="img-text">Mongo</p>
-        </div>
-        <div class="tech wrap">
-          <img src={node} alt="Node" class="tech" />
-          <p class="img-text">Node</p>
-        </div>
-        <div class="tech wrap">
-          <img src={postgres} alt="Postgres" class="tech" />
-          <p class="img-text">Postgres</p>
-        </div>
-        <div class="tech wrap ">
-          <img src={postman} alt="Postman" class="tech" />
-          <p class="img-text">Postman</p>
-        </div>
-        <div class="tech wrap">
-          <img src={python} alt="Python" class="tech" />
-          <p class="img-text">Python</p>
-        </div>
-        <div class="tech wrap">
-          <img src={rails} alt="Rails" class="tech" />
-          <p class="img-text">Ruby on Rails</p>
-        </div>
-        <div class="tech wrap">
-          <img src={react} alt="React" class="tech" />
-          <p class="img-text">React</p>
-        </div>
-        <div class="tech wrap">
-          <img src={ruby} alt="Ruby" class="tech" />
-          <p class="img-text">Ruby</p>
-        </div>
-        <div class="tech wrap">
-          <img src={jquery} alt="jQuery" class="tech" />
-          <p class="img-text">jQuery</p>
-        </div>
-        <div class="tech wrap">
-          <img src={jira} alt="Jira" class="tech" />
-          <p class="img-text">Jira</p>
-        </div>
-        <div class="tech wrap">
-          <img src={git} alt="Git" class="tech" />
-          <p class="img-text">Git</p>
-        </div>
-        <div class="tech wrap">
-          <img src={github} alt="Github" class="tech" />
-          <p class="img-text">GitHub</p>
-        </div>
+        <img src={css3} alt="CSS 3" class="tech " />
+
+        <img src={django} alt="Django" class="tech" />
+
+        <img src={html} alt="HTML 5" class="tech" />
+
+        <img src={javascript} alt="Javascript" class="tech" />
+
+        <img src={mongo} alt="Mongo" class="tech" />
+
+        <img src={node} alt="Node" class="tech" />
+
+        <img src={postgres} alt="Postgres" class="tech" />
+
+        <img src={postman} alt="Postman" class="tech" />
+
+        <img src={python} alt="Python" class="tech" />
+
+        <img src={rails} alt="Rails" class="tech" />
+
+        <img src={react} alt="React" class="tech" />
+
+        <img src={ruby} alt="Ruby" class="tech" />
+
+        <img src={jquery} alt="jQuery" class="tech" />
+
+        <img src={jira} alt="Jira" class="tech" />
+
+        <img src={git} alt="Git" class="tech" />
+
+        <img src={github} alt="Github" class="tech" />
       </section>
     </div>
   )
