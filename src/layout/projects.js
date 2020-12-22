@@ -12,47 +12,71 @@ import MTG_Search from "../../static/images/MTG_Search.png"
 const Project_Images = props => {
   return (
     <div>
+      <h1>Projects</h1>
       <section id="project-images">
-        <p class="project-description">
-          <strong>
+        <div class="shelfie">
+          <p class="project-description">
             <em>Digital Shelfie </em>
-          </strong>
-          is an application that lets board gamers show off their collection to
-          the rest of the community. Users sign up, log in, and enter the game's
-          information.In the next update users will be able to search for their
-          games using the Board Game Atlas API. <br />
-          <br /> Technologies used: MongoDB, Express, React, Node (MERN)
-        </p>
+            is an application that lets board gamers show off their collection
+            to the rest of the community. Users sign up, log in, and enter the
+            game's information.In the next update users will be able to search
+            for their games using the Board Game Atlas API. <br />
+            <br /> Technologies used: MongoDB, Express, React, Node (MERN)
+          </p>
 
-        <Link>
           <img src={Shelfie} alt="Shelfie" class="projects" />
-        </Link>
 
-        <p class="project-description">
-          <em>MTG Search </em>allows players to to search for individual card by
-          sending fetch requests to the Scryfall API. Players can also view the
-          symbols for each set by clicking through the carousel which accesses
-          the Magic The Gathering API. The next update will allow users to view
-          the entire Card Image Gallery for each set by clicking the set symbol.{" "}
-          <br />
-          <br /> Technologies used: HTML, CSS, JavaScript, jQuery
-        </p>
+          <a href="https://github.com/BrandonCzaja/Digital-Shelfie">GitHub</a>
+          <a href="https://digital-shelfie.herokuapp.com/">Live Site</a>
+        </div>
 
-        <Link>
+        <div class="mtg">
+          <p class="project-description">
+            <em>MTG Search </em>allows players to to search for individual card
+            by sending fetch requests to the Scryfall API. Players can also view
+            the symbols for each set by clicking through the carousel which
+            accesses the Magic The Gathering API. The next update will allow
+            users to view the entire Card Image Gallery for each set by clicking
+            the set symbol. <br />
+            <br /> Technologies used: HTML, CSS, JavaScript, jQuery
+          </p>
+
           <img src={MTG_Search} alt="MTG Search" class="projects" />
-        </Link>
 
-        <p class="project-description ">
-          <em>Ubuntu: I am because we are</em>, allows users to login with JWT
-          authentication and create charitable events for their local community.
-          The next update will allow users to search for events in their
-          community using Google Maps. <br />
-          <br /> Technologies used: MongoDB, Express, React, Node (MERN)
-        </p>
+          <a href="https://github.com/BrandonCzaja/MTGSearch">GitHub</a>
+          <a href="https://magic-the-gathering-search.vercel.app/">Live Site</a>
+        </div>
 
-        <Link>
+        <div class="charity">
+          <p class="project-description ">
+            <em>Ubuntu: I am because we are</em>, allows users to login with JWT
+            authentication and create charitable events for their local
+            community. The next update will allow users to search for events in
+            their community using Google Maps. <br />
+            <br /> Technologies used: MongoDB, Express, React, Node (MERN)
+          </p>
+
           <img src={Ubuntu} alt="Ubuntu" class="projects ubuntu" />
-        </Link>
+
+          <a
+            href="https://github.com/BrandonCzaja/Ubuntu-Backend"
+            class="ubuntu-links"
+          >
+            Backend GitHub
+          </a>
+          <a
+            href="https://github.com/BrandonCzaja/Ubuntu-Frontend"
+            class="ubuntu-links"
+          >
+            Frontend GitHub
+          </a>
+          <a
+            href="https://practical-jones-b55cd9.netlify.app/"
+            class="ubuntu-links"
+          >
+            Live Site
+          </a>
+        </div>
       </section>
     </div>
   )

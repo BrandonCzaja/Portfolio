@@ -8,7 +8,7 @@ import Layout from "../layout/Layout"
 import Skills from "../layout/skills"
 import Style from "../styles/style.css"
 
-import Portfolio_Image from "../../static/images/Portfolio_Image.jpg"
+import headshot from "../../static/images/headshot.jpeg"
 import Shelfie from "../../static/images/Shelfie.png"
 import Ubuntu from "../../static/images/Ubuntu.png"
 import MTG_Search from "../../static/images/MTG_Search.png"
@@ -22,7 +22,7 @@ const Home = () => {
         <body>
           <div id="introduction">
             <Link>
-              <img src={Portfolio_Image} id="intro-pic" />
+              <img src={headshot} id="intro-pic" />
             </Link>
             <p class="bio" id="bio">
               <span id="greeting">Welcome! I'm Brandon Czaja.</span> <br />

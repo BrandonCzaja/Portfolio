@@ -3,23 +3,94 @@
 } */
 
 .project-description {
-  background-color: #424242;
   padding: 1%;
-  margin-top: 15%;
-  width: 40%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   font-size: x-large;
   text-align: center;
-  margin-left: 29%;
   color: #ffffff;
 }
 
 .projects {
-  width: 50%;
+  width: 80%;
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
-.ubuntu {
+.ubuntu-links {
   margin-bottom: 10%;
+  display: inline-block;
+}
+
+h1 {
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: right;
+  margin-right: 9%;
+}
+
+a {
+  color: #ffffff;
+  margin-right: 2%;
+  font-size: larger;
+}
+
+.shelfie {
+  background-color: #424242;
+  padding: 1%;
+  max-width: 80%;
+  margin: 2% auto 5%;
+}
+
+.mtg {
+  background-color: #424242;
+  padding: 1%;
+  max-width: 80%;
+  margin: 2% auto 0;
+}
+
+.charity {
+  background-color: #424242;
+  padding: 1%;
+  max-width: 80%;
+  margin: 2% auto 0;
+}
+
+div a {
+  display: inline-block;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  margin: 2%;
+}
+
+.shelfie a {
+  margin: 2%;
+}
+
+.shelfie a:hover {
+  color: #ffcc66;
+  font-size: x-large;
+}
+
+.mtg a {
+  margin: 2%;
+}
+
+.mtg a:hover {
+  color: #ffcc66;
+  font-size: x-large;
+}
+
+.charity a {
+  margin: 2%;
+}
+
+.charity a:hover {
+  color: #ffcc66;
+  font-size: x-large;
 }

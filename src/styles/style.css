@@ -39,11 +39,11 @@ nav a:hover {
 }
 
 #intro-pic {
-  margin-top: 5%;
+  margin-top: 15%;
   flex: row;
   margin-left: 5%;
   height: 300px;
-  width: 250px;
+  width: 300px;
 }
 
 #bio {
@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 .contact a:hover {
-  color: #30b2ea;
+  color: #ffcc66;
 }
 
 h1 {
