@@ -22,7 +22,7 @@ import github from "../../static/images/Icons/github.png"
 const Skills = props => {
   return (
     <div>
-      <h1>Technological Skills</h1>
+      <h1>Tech Skills</h1>
 
       <section id="skills">
         <img src={css3} alt="CSS 3" class="tech " />
