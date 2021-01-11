@@ -6,7 +6,7 @@ date: 1/11/2021
 
 Hello and welcome.
 
-Today I want to discuss the Code Wars challenge _<a href="https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/javascript" target="_blank">Remove First and Last Character</a>_ using three JavaScript methods - slice(), substring(), and substr().
+Today I want to discuss the Code Wars challenge [Remove First and Last Characters]("https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/javascript" target="\_blank") using three JavaScript methods - slice(), substring(), and substr().
 
 ## Challenge
 
