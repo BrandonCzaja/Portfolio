@@ -6,7 +6,7 @@ date: 1/11/2021
 
 Hello and welcome.
 
-Today I want to discuss the Code Wars challenge Remove First and Last Characters. I will solve it using three JavaScript methods - slice(), substring(), and substr().
+Today I want to discuss the Code Wars challenge Remove First and Last Characters. I will solve it using the JavaScript `slice()` method. All definitions are from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice" target="_blank">MDN.</a>
 
 ## Challenge
 
@@ -16,9 +16,7 @@ The challenge is pretty straight forward; you are given a string as a parameter 
 
 - ### Definition
 
-The definition for `string.slice()` given by <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice" target="_blank">MDN</a> states:
-
-The `slice()` method extracts a section of a string and returns it as a new string, without modifying the original string.
+> The `slice()` method extracts a section of a string and returns it as a new string, without modifying the original string.
 
 As the definition states, `slice()` creates a modified copy of the original string, without altering the original.
 
@@ -51,6 +49,8 @@ function removeChar(str) {
 }
 ```
 
-## Substring()
+That is all we needed to do to solve this simple but fun Code Wars challenge.
+
+Happy Coding,
 
 Brandon
