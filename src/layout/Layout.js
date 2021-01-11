@@ -20,9 +20,9 @@ const Layout = props => {
               <Link to="/projects">Projects</Link>
             </li>
 
-            {/* <li>
+            <li>
               <Link to="/blogs">Blogs</Link>
-            </li> */}
+            </li>
           </nav>
         </div>
       </header>
