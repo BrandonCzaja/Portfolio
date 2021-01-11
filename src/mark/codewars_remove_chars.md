@@ -1,12 +1,12 @@
 ---
-title: Code Wars
+title: Code Wars - Remove First and Last Character
 author: Brandon Czaja
 date: 1/11/2021
 ---
 
 Hello and welcome.
 
-Today I want to discuss the Code Wars challenge Remove First and Last Characters. I will solve it using the JavaScript `slice()` method. All definitions are from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice" target="_blank">MDN.</a>
+Today I want to discuss the Code Wars challenge _Remove First and Last Characters_. I will solve it using the JavaScript `slice()` method. All definitions are from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice" target="_blank">MDN.</a>
 
 ## Challenge
 
