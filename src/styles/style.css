@@ -4,36 +4,38 @@ body {
 }
 /* Mobile */
 @media screen and (min-width: 320px) {
-  body,
-  p,
-  a,
-  h4 {
+  body {
     font-size: 16px;
   }
-}
 
-/* Tablets */
-@media screen and (min-width: 481px) {
-  body,
-  p,
-  a,
-  h4 {
-    font-size: 14px;
+  div#introduction {
+    background-color: blue;
+    width: 100%;
   }
-}
 
-/* Laptops */
-@media screen and (min-width: 769px) {
-  body,
-  p,
-  a,
-  h4 {
-    font-size: 14px;
+  #intro-pic {
+    margin-top: 15%;
+    flex: row;
+    margin-left: 5%;
+    height: 300px;
+    width: 100%;
+    border-radius: 7px;
   }
-}
 
-/* Hamburger menu */
-@media screen and (max-width: 481) {
+  p#bio {
+    display: inline-block;
+    color: #ffffff;
+    font-size: large;
+    max-width: 80%;
+  }
+
+  li.contact {
+    color: #ffffff;
+    flex: row;
+    display: inline-block;
+    font-size: large;
+    width: 80%;
+  }
 }
 
 nav {
@@ -110,4 +112,28 @@ nav a:hover {
 
 h1 {
   margin: 0 auto;
+}
+
+/* Tablets */
+@media screen and (min-width: 481px) {
+  body,
+  p,
+  a,
+  h4 {
+    font-size: 14px;
+  }
+}
+
+/* Laptops */
+@media screen and (min-width: 769px) {
+  body,
+  p,
+  a,
+  h4 {
+    font-size: 14px;
+  }
+}
+
+/* Hamburger menu */
+@media screen and (max-width: 481) {
 }
