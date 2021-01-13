@@ -13,12 +13,9 @@ body {
     width: 100%;
   }
 
-  #intro-pic {
-    margin-top: 15%;
-    flex: row;
-    margin-left: 5%;
-    height: 300px;
-    width: 100%;
+  img#intro-pic {
+    margin-top: 34%;
+    width: 110%;
     border-radius: 7px;
   }
 
