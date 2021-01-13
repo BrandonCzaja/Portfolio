@@ -19,14 +19,6 @@ const Layout = props => {
             <li>
               <Link to="/projects">Projects</Link>
             </li>
-            {/* <li>
-              <Link
-                to="https://docs.google.com/document/d/e/2PACX-1vQpCC2u5cuHynbBBMXQWS33f5xg1S6dhZJ0yv0NMYVF8jGjafKbdG2paMQFJ3sLQuo5jg4BFCUuNcXk/pub"
-                target="_blank"
-              >
-                Resume
-              </Link>
-            </li> */}
             <li>
               <Link to="/resume">Resume</Link>
             </li>

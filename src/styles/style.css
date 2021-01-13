@@ -1,3 +1,24 @@
+/* 576px for portrait phones
+768px for tablets
+992px for laptops
+1200px for large devices */
+
+/* @media not|only mediatype and (expressions) {
+  CSS-Code;
+} */
+
+@media screen and (min-width: 576px) {
+  body,
+  p,
+  a,
+  h4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width) {
+  /* Hamburger menu */
+}
 body {
   background-color: #335c81;
 }
