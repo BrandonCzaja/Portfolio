@@ -36,11 +36,6 @@ const Home = () => {
             </p>
 
             <ul>
-              <li class="contact" id="contact-information">
-                Chicago, IL
-              </li>
-              <li class="contact">Brandon.Czaja@gmail.com</li>
-              <li class="contact">603-540-3182</li>
               <li class="contact sites">
                 <a href="https://github.com/BrandonCzaja">GitHub</a>
               </li>
@@ -49,6 +44,11 @@ const Home = () => {
                   Linkedin
                 </a>
               </li>
+              <li class="contact" id="contact-information">
+                Chicago, IL
+              </li>
+              <li class="contact">603-540-3182</li>
+              <li class="contact email">Brandon.Czaja@gmail.com</li>
             </ul>
           </div>
 

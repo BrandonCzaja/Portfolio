@@ -9,7 +9,7 @@ body {
   }
 
   div#introduction {
-    background-color: blue;
+    background-color: #424242;
     width: 100%;
   }
 
@@ -38,6 +38,11 @@ body {
   li.sites {
     text-decoration: none;
     width: 40%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  li.email {
     margin-bottom: 5%;
   }
 
