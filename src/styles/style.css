@@ -3,7 +3,7 @@ body {
   background-color: #335c81;
 }
 /* Mobile */
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 359px) {
   body {
     font-size: 16px;
   }
@@ -39,6 +39,30 @@ body {
     text-decoration: none;
     width: 40%;
     margin-bottom: 5%;
+  }
+
+  h1#tech-skills {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  section#skills {
+    width: 100%;
+    margin: 0;
+  }
+
+  img.tech {
+    margin: 4% auto;
+    padding: 2%;
+    width: 80%;
+    border: 1px solid black;
+    background-color: beige;
+    display: block;
   }
 }
 
