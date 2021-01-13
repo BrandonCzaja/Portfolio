@@ -62,7 +62,7 @@ const Project_Images = props => {
         </div>
 
         <div class="charity">
-          <p class="project-description ">
+          <p class="project-description">
             <em>Ubuntu: I am because we are</em>, allows users to login with JWT
             authentication and create charitable events for their local
             community. The next update will allow users to search for events in

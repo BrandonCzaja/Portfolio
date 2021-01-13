@@ -2,7 +2,6 @@ import React from "react"
 import Gatsby from "gatsby"
 import { Link } from "gatsby"
 import { useStaticQuery } from "gatsby"
-// Styles
 
 import Layout from "../layout/Layout"
 import Skills from "../layout/skills"
