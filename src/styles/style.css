@@ -1,13 +1,19 @@
-/* 576px for portrait phones
-768px for tablets
-992px for laptops
-1200px for large devices */
+/* Default Styling */
+body {
+  background-color: #335c81;
+}
+/* Mobile */
+@media screen and (min-width: 320px) {
+  body,
+  p,
+  a,
+  h4 {
+    font-size: 16px;
+  }
+}
 
-/* @media not|only mediatype and (expressions) {
-  CSS-Code;
-} */
-
-@media screen and (min-width: 576px) {
+/* Tablets */
+@media screen and (min-width: 481px) {
   body,
   p,
   a,
@@ -16,11 +22,18 @@
   }
 }
 
-@media screen and (max-width) {
-  /* Hamburger menu */
+/* Laptops */
+@media screen and (min-width: 769px) {
+  body,
+  p,
+  a,
+  h4 {
+    font-size: 14px;
+  }
 }
-body {
-  background-color: #335c81;
+
+/* Hamburger menu */
+@media screen and (max-width: 481) {
 }
 
 nav {
