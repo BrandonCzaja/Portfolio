@@ -32,7 +32,13 @@ body {
     flex: row;
     display: inline-block;
     font-size: large;
-    width: 80%;
+    width: 50%;
+  }
+
+  li.sites {
+    text-decoration: none;
+    width: 40%;
+    margin-bottom: 5%;
   }
 }
 

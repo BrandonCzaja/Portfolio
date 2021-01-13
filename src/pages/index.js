@@ -41,10 +41,10 @@ const Home = () => {
               </li>
               <li class="contact">Brandon.Czaja@gmail.com</li>
               <li class="contact">603-540-3182</li>
-              <li class="contact">
+              <li class="contact sites">
                 <a href="https://github.com/BrandonCzaja">GitHub</a>
               </li>
-              <li class="contact">
+              <li class="contact sites">
                 <a href="https://www.linkedin.com/in/brandon-czaja/">
                   Linkedin
                 </a>
