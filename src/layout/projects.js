@@ -11,8 +11,8 @@ import MTG_Search from "../../static/images/MTG_Search.png"
 
 const Project_Images = props => {
   return (
-    <div>
-      <h1>Projects</h1>
+    <div id="container">
+      <h1 id="projects-intro">Projects</h1>
       <section id="project-images">
         <div class="shelfie">
           <p class="project-description">
