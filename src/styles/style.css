@@ -10,13 +10,12 @@ body {
 
   div#introduction {
     background-color: #424242;
-    width: 100%;
+    margin: 20% auto 0;
+    width: 90%;
   }
 
   img#intro-pic {
-    margin-top: 34%;
-    margin-left: 8%;
-    width: 110%;
+    width: 90%;
     border-radius: 7px;
   }
 
@@ -38,8 +37,7 @@ body {
   li.sites {
     text-decoration: none;
     width: 40%;
-    margin-top: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 7%;
   }
 
   li.email {

@@ -16,13 +16,11 @@ const Home = () => {
   return (
     <>
       <html>
-        <Layout> </Layout>
-
+        <Layout />
         <body>
           <div id="introduction">
-            <Link>
-              <img src={headshot} id="intro-pic" />
-            </Link>
+            <img src={headshot} id="intro-pic" />
+
             <p class="bio" id="bio">
               <span id="greeting">Welcome! I'm Brandon Czaja.</span> <br />
               <br /> I am a team-oriented, goal-driven, full stack developer
