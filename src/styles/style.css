@@ -3,7 +3,7 @@ body {
   background-color: #335c81;
 }
 /* Mobile */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 360px) {
   body {
     font-size: 16px;
   }
@@ -157,11 +157,107 @@ h1 {
 
 /* Laptops */
 @media screen and (min-width: 769px) {
-  body,
-  p,
-  a,
-  h4 {
-    font-size: 14px;
+  nav {
+    background-color: #244766;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  nav li {
+    flex: row;
+    display: inline-block;
+    font-size: xx-large;
+    margin: 0 9%;
+  }
+
+  nav a {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #ffcc66;
+    color: #244766;
+    cursor: pointer;
+  }
+
+  #introduction {
+    background-color: #424242;
+    width: 80%;
+    margin: 8% auto;
+
+    border-radius: 5px;
+  }
+
+  #intro-pic {
+    margin-top: 15%;
+    flex: row;
+    margin-left: 5%;
+    height: 300px;
+    width: 300px;
+    border-radius: 7px;
+  }
+
+  #bio {
+    color: #ffffff;
+    font-size: x-large;
+    float: right;
+    display: block;
+    max-width: 60%;
+    margin-top: 8%;
+    margin-right: 7%;
+  }
+
+  .contact {
+    color: #ffffff;
+    padding: 3%;
+    flex: row;
+    display: inline-block;
+    font-size: x-large;
+  }
+
+  .contact a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .contact a:hover {
+    color: #ffcc66;
+  }
+
+  #skills {
+    margin-top: 4%;
+    width: 85%;
+    flex: row;
+    flex-wrap: wrap;
+    display: block;
+    margin-left: 15%;
+  }
+
+  .tech {
+    width: 15%;
+    height: 200px;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border: 1px solid black;
+    background-color: beige;
+    position: relative;
+    display: inline-block;
+  }
+
+  h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 500;
   }
 }
 
