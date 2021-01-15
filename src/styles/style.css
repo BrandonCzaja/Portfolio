@@ -1,7 +1,15 @@
-/* Default Styling */
+/* Mobile */
+
 body {
   background-color: #335c81;
+  margin-top: 30%;
+  font-size: 16px;
 }
+
+/* body {
+  margin-top: 30%;
+  font-size: 16px;
+} */
 
 nav {
   background-color: #244766;
@@ -31,144 +39,189 @@ nav a:hover {
   cursor: pointer;
 }
 
-#introduction {
+div#introduction {
   background-color: #424242;
-  width: 80%;
-  margin: 8% auto;
-
-  border-radius: 5px;
+  margin: 20% auto 0;
+  width: 90%;
 }
 
-#intro-pic {
-  margin-top: 15%;
-  flex: row;
+img#intro-pic {
   margin-left: 5%;
-  height: 300px;
-  width: 300px;
+  margin-top: 5%;
+  width: 90%;
   border-radius: 7px;
 }
 
-#bio {
-  color: #ffffff;
-  font-size: x-large;
-  float: right;
-  display: block;
-  max-width: 60%;
-  margin-top: 8%;
-  margin-right: 7%;
+span#greeting {
+  font-size: larger;
 }
 
-.contact {
-  color: #ffffff;
-  padding: 3%;
-  flex: row;
+p#bio {
   display: inline-block;
-  font-size: x-large;
-}
-
-.contact a {
   color: #ffffff;
-  text-decoration: none;
+  font-size: large;
+  max-width: 80%;
+  text-align: left;
+  padding-left: 5%;
 }
 
-.contact a:hover {
-  color: #ffcc66;
+span.contact {
+  border: 2px solid black;
+  color: #ffffff;
+  display: block;
+  font-size: large;
+  width: 50%;
+  margin-left: 5%;
 }
 
-h1 {
-  margin: 0 auto;
-}
-
-.tech-used {
-  color: #ffcc66;
-}
-
-.site-buttons {
+span.sites {
   background-color: #424242;
-  padding: 0.75%;
+  padding: 2%;
   border: 2px solid #335c81;
   border-radius: 7%;
 }
 
-/* MEDIA QUERIES */
+a.sites {
+  color: #ffcc66;
+}
 
-/* Mobile */
-@media screen and (max-width: 760px) {
+li.email {
+  margin-bottom: 5%;
+}
+
+div#mySites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: teal;
+}
+
+h1#tech-skills {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-size: xx-large;
+  font-weight: 500;
+  text-align: center;
+}
+
+section#skills {
+  width: 100%;
+  margin: 0;
+}
+
+img.tech {
+  margin: 4% auto;
+  padding: 2%;
+  width: 70%;
+  border: 1px solid black;
+  background-color: rgb(250, 217, 187);
+  display: block;
+}
+
+/* Projects */
+
+h1#projects-intro {
+  text-align: center;
+  margin-top: 25%;
+}
+
+p.project-description {
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  /* For Desktop */
   body {
-    margin-top: 30%;
-    font-size: 16px;
+    background-color: #335c81;
   }
 
-  div#introduction {
+  nav {
+    background-color: #244766;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  nav li {
+    flex: row;
+    display: inline-block;
+    font-size: xx-large;
+    margin: 0 9%;
+  }
+
+  nav a {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #ffcc66;
+    color: #244766;
+    cursor: pointer;
+  }
+
+  #introduction {
     background-color: #424242;
-    margin: 20% auto 0;
-    width: 90%;
+    width: 80%;
+    margin: 8% auto;
+
+    border-radius: 5px;
   }
 
-  img#intro-pic {
-    display: none;
-    width: 90%;
+  #intro-pic {
+    margin-top: 15%;
+    flex: row;
+    margin-left: 5%;
+    height: 300px;
+    width: 300px;
     border-radius: 7px;
   }
 
-  p#bio {
-    display: inline-block;
+  #bio {
     color: #ffffff;
-    font-size: large;
-    max-width: 80%;
+    font-size: x-large;
+    float: right;
+    display: block;
+    max-width: 60%;
+    margin-top: 8%;
+    margin-right: 7%;
   }
 
-  li.contact {
+  .contact {
     color: #ffffff;
+    padding: 3%;
     flex: row;
     display: inline-block;
-    font-size: large;
-    width: 50%;
+    font-size: x-large;
   }
 
-  li.sites {
-    text-decoration: none;
-    width: 40%;
-    margin-bottom: 7%;
-  }
-
-  li.email {
-    margin-bottom: 5%;
-  }
-
-  h1#tech-skills {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .contact a {
     color: #ffffff;
-    font-size: xx-large;
-    font-weight: 500;
-    text-align: center;
+    text-decoration: none;
   }
 
-  section#skills {
-    width: 100%;
-    margin: 0;
+  .contact a:hover {
+    color: #ffcc66;
   }
 
-  img.tech {
-    margin: 4% auto;
-    padding: 2%;
-    width: 70%;
-    border: 1px solid black;
-    background-color: rgb(250, 217, 187);
-    display: block;
+  h1 {
+    margin: 0 auto;
   }
 
-  /* Projects */
-
-  h1#projects-intro {
-    text-align: center;
-    margin-top: 25%;
+  .tech-used {
+    color: #ffcc66;
   }
 
-  p.project-description {
-    text-align: left;
+  .site-buttons {
+    background-color: #424242;
+    padding: 0.75%;
+    border: 2px solid #335c81;
+    border-radius: 7%;
   }
 }
 

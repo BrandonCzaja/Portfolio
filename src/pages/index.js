@@ -22,7 +22,7 @@ const Home = () => {
             <img src={headshot} id="intro-pic" />
 
             <p class="bio" id="bio">
-              <span id="greeting">Welcome! I'm Brandon Czaja.</span> <br />
+              <span id="greeting">Hello! I'm Brandon Czaja.</span> <br />
               <br /> I am a team-oriented, goal-driven, full stack developer
               experienced in JavaScript, Ruby on Rails, Django, and React, with
               a side passion for history. I love programming because it is a lot
@@ -33,21 +33,27 @@ const Home = () => {
               program.
             </p>
 
-            <ul>
-              <li class="contact sites">
-                <a href="https://github.com/BrandonCzaja">GitHub</a>
-              </li>
-              <li class="contact sites">
-                <a href="https://www.linkedin.com/in/brandon-czaja/">
+            <div id="mySites">
+              <span class="sites">
+                <a href="https://github.com/BrandonCzaja" class="sites">
+                  GitHub
+                </a>
+              </span>
+              <span class="sites">
+                <a
+                  href="https://www.linkedin.com/in/brandon-czaja/"
+                  class="sites"
+                >
                   Linkedin
                 </a>
-              </li>
-              <li class="contact" id="contact-information">
-                Chicago, IL
-              </li>
-              <li class="contact">603-540-3182</li>
-              <li class="contact email">Brandon.Czaja@gmail.com</li>
-            </ul>
+              </span>
+            </div>
+
+            <span class="contact" id="contact-information">
+              Chicago, IL
+            </span>
+            <span class="contact">603-540-3182</span>
+            <span class="contact email">Brandon.Czaja@gmail.com</span>
           </div>
 
           <br />
