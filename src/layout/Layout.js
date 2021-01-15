@@ -10,9 +10,35 @@ const Layout = props => {
       <head>
         <meta name="viewport" content="width=device-width" initial-scale="1" />
       </head>
-      <header>
-        <div id="div-wrapper">
-          <nav>
+
+      <div id="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/projects">Projects</a>
+                </li>
+                <li>
+                  <a href="/resume">Resume</a>
+                </li>
+                <li>
+                  <a href="/blogs">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/*<nav>
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -22,12 +48,11 @@ const Layout = props => {
             <li>
               <Link to="/resume">Resume</Link>
             </li>
-            {/* <li>
+             <li>
               <Link to="/blogs">Blogs</Link>
-            </li> */}
-          </nav>
-        </div>
-      </header>
+            </li> 
+          </nav>*/}
+
       <main>{props.children}</main>
     </>
   )

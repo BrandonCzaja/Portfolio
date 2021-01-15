@@ -1,0 +1,30 @@
+.showcase {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  height: 100vh;
+  position: relative;
+}
+
+.showcase h1 {
+  font-size: 4rem;
+}
+
+.showcase:before {
+  content: "";
+  background-color: forestgreen;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.showcase .showcase-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
