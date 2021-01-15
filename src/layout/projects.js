@@ -34,21 +34,22 @@ const Project_Images = props => {
               <a href="https://digital-shelfie.herokuapp.com/" target="digital-shelfie"></a>
             </p>
           </iframe> */}
-
-          <a
-            href="https://github.com/BrandonCzaja/Digital-Shelfie"
-            target="_blank"
-            class="site-buttons"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://digital-shelfie.herokuapp.com/"
-            target="_blank"
-            class="site-buttons"
-          >
-            Live Site
-          </a>
+          <div class="project-sites">
+            <a
+              href="https://github.com/BrandonCzaja/Digital-Shelfie"
+              target="_blank"
+              class="site-buttons"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://digital-shelfie.herokuapp.com/"
+              target="_blank"
+              class="site-buttons"
+            >
+              Live Site
+            </a>
+          </div>
         </div>
 
         <div class="mtg">
@@ -75,21 +76,22 @@ const Project_Images = props => {
               <a href="https://magic-the-gathering-search.vercel.app/"></a>
             </p>
           </iframe> */}
-
-          <a
-            href="https://github.com/BrandonCzaja/MTGSearch"
-            target="_blank"
-            class="site-buttons"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://magic-the-gathering-search.vercel.app/"
-            target="_blank"
-            class="site-buttons"
-          >
-            Live Site
-          </a>
+          <div class="project-sites">
+            <a
+              href="https://github.com/BrandonCzaja/MTGSearch"
+              target="_blank"
+              class="site-buttons"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://magic-the-gathering-search.vercel.app/"
+              target="_blank"
+              class="site-buttons"
+            >
+              Live Site
+            </a>
+          </div>
         </div>
 
         <div class="charity">
@@ -106,30 +108,32 @@ const Project_Images = props => {
 
           <img src={Ubuntu} alt="Ubuntu" class="projects ubuntu" />
 
-          <a
-            href="https://github.com/BrandonCzaja/Ubuntu-Backend"
-            class="ubuntu-links"
-            target="_blank"
-            class="site-buttons"
-          >
-            Backend GitHub
-          </a>
-          <a
-            href="https://github.com/BrandonCzaja/Ubuntu-Frontend"
-            class="ubuntu-links"
-            target="_blank"
-            class="site-buttons"
-          >
-            Frontend GitHub
-          </a>
-          <a
-            href="https://practical-jones-b55cd9.netlify.app/"
-            class="ubuntu-links"
-            target="_blank"
-            class="site-buttons"
-          >
-            Live Site
-          </a>
+          <div class="project-sites">
+            <a
+              href="https://github.com/BrandonCzaja/Ubuntu-Backend"
+              class="ubuntu-links"
+              target="_blank"
+              class="site-buttons"
+            >
+              Backend GitHub
+            </a>
+            <a
+              href="https://github.com/BrandonCzaja/Ubuntu-Frontend"
+              class="ubuntu-links"
+              target="_blank"
+              class="site-buttons"
+            >
+              Frontend GitHub
+            </a>
+            <a
+              href="https://practical-jones-b55cd9.netlify.app/"
+              class="ubuntu-links"
+              target="_blank"
+              class="site-buttons"
+            >
+              Live Site
+            </a>
+          </div>
         </div>
       </section>
     </div>
