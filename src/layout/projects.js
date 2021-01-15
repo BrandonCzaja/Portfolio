@@ -101,10 +101,13 @@ const Project_Images = props => {
 
         <div class="charity">
           <p class="project-description">
-            <em>Ubuntu: I am because we are</em>, allows users to login with JWT
-            authentication and create charitable events for their local
-            community. The next update will allow users to search for events in
-            their community using Google Maps. <br />
+            <span class="project-title">
+              <em>Ubuntu: I am because we are</em>
+            </span>
+            , allows users to login with JWT authentication and create
+            charitable events for their local community. The next update will
+            allow users to search for events in their community using Google
+            Maps. <br />
             <br />{" "}
             <span class="tech-used">
               Technologies used: MongoDB, Express, React, Node (MERN)
