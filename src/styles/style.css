@@ -66,7 +66,6 @@ p#bio {
 }
 
 span.contact {
-  border: 2px solid black;
   color: #ffffff;
   display: block;
   font-size: large;
@@ -85,8 +84,8 @@ a.sites {
   color: #ffcc66;
 }
 
-li.email {
-  margin-bottom: 5%;
+span.email {
+  padding-bottom: 5%;
 }
 
 div#mySites {
