@@ -100,7 +100,8 @@ h1 {
   }
 
   div#introduction {
-    background-color: #424242;
+    /* background-color: #424242; */
+    background-color: teal;
     margin: 20% auto 0;
     width: 90%;
   }
