@@ -2,80 +2,6 @@
 body {
   background-color: #335c81;
 }
-/* Mobile */
-@media screen and (min-width: 360px) {
-  body {
-    margin-top: 30%;
-    font-size: 16px;
-  }
-
-  div#introduction {
-    background-color: #424242;
-    margin: 20% auto 0;
-    width: 90%;
-  }
-
-  img#intro-pic {
-    width: 90%;
-    border-radius: 7px;
-  }
-
-  p#bio {
-    display: inline-block;
-    color: #ffffff;
-    font-size: large;
-    max-width: 80%;
-  }
-
-  li.contact {
-    color: #ffffff;
-    flex: row;
-    display: inline-block;
-    font-size: large;
-    width: 50%;
-  }
-
-  li.sites {
-    text-decoration: none;
-    width: 40%;
-    margin-bottom: 7%;
-  }
-
-  li.email {
-    margin-bottom: 5%;
-  }
-
-  h1#tech-skills {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    color: #ffffff;
-    font-size: xx-large;
-    font-weight: 500;
-    text-align: center;
-  }
-
-  section#skills {
-    width: 100%;
-    margin: 0;
-  }
-
-  img.tech {
-    margin: 4% auto;
-    padding: 2%;
-    width: 70%;
-    border: 1px solid black;
-    background-color: rgb(250, 217, 187);
-    display: block;
-  }
-
-  /* Projects */
-
-  h1#projects-intro {
-    text-align: center;
-    margin-top: 25%;
-  }
-}
 
 nav {
   background-color: #244766;
@@ -151,6 +77,81 @@ nav a:hover {
 
 h1 {
   margin: 0 auto;
+}
+
+/* Mobile */
+@media screen and (min-width: 360px) {
+  body {
+    margin-top: 30%;
+    font-size: 16px;
+  }
+
+  div#introduction {
+    background-color: #424242;
+    margin: 20% auto 0;
+    width: 90%;
+  }
+
+  img#intro-pic {
+    width: 90%;
+    border-radius: 7px;
+  }
+
+  p#bio {
+    display: inline-block;
+    color: #ffffff;
+    font-size: large;
+    max-width: 80%;
+  }
+
+  li.contact {
+    color: #ffffff;
+    flex: row;
+    display: inline-block;
+    font-size: large;
+    width: 50%;
+  }
+
+  li.sites {
+    text-decoration: none;
+    width: 40%;
+    margin-bottom: 7%;
+  }
+
+  li.email {
+    margin-bottom: 5%;
+  }
+
+  h1#tech-skills {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  section#skills {
+    width: 100%;
+    margin: 0;
+  }
+
+  img.tech {
+    margin: 4% auto;
+    padding: 2%;
+    width: 70%;
+    border: 1px solid black;
+    background-color: rgb(250, 217, 187);
+    display: block;
+  }
+
+  /* Projects */
+
+  h1#projects-intro {
+    text-align: center;
+    margin-top: 25%;
+  }
 }
 
 /* Tablets */
