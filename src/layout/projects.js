@@ -16,7 +16,9 @@ const Project_Images = props => {
       <section id="project-images">
         <div class="shelfie">
           <p class="project-description">
-            <em>Digital Shelfie </em>
+            <span class="project-title">
+              <em>Digital Shelfie </em>
+            </span>
             is an application that lets board gamers show off their collection
             to the rest of the community. Users sign up, log in, and enter the
             game's information.In the next update users will be able to search
@@ -54,12 +56,15 @@ const Project_Images = props => {
 
         <div class="mtg">
           <p class="project-description">
-            <em>MTG Search </em>allows players to to search for individual card
-            by sending fetch requests to the Scryfall API. Players can also view
-            the symbols for each set by clicking through the carousel which
-            accesses the Magic The Gathering API. The next update will allow
-            users to view the entire Card Image Gallery for each set by clicking
-            the set symbol. <br />
+            <span class="project-title">
+              <em>MTG Search </em>
+            </span>
+            allows players to to search for individual card by sending fetch
+            requests to the Scryfall API. Players can also view the symbols for
+            each set by clicking through the carousel which accesses the Magic
+            The Gathering API. The next update will allow users to view the
+            entire Card Image Gallery for each set by clicking the set symbol.{" "}
+            <br />
             <br />{" "}
             <span class="tech-used">
               Technologies used: HTML, CSS, JavaScript, jQuery

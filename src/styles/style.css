@@ -1,10 +1,10 @@
+/* MENU */
+
 :root {
   --primary-color: rgba(13, 110, 139, 0.75);
   --overlay-color: rgba(24, 39, 51, 0.85);
   --menu-speed: 0.75s;
 }
-
-/* MENU */
 
 #menu-wrap {
   position: fixed;
@@ -32,7 +32,7 @@
   width: 40px;
   height: 40px;
   padding-left: 0.5rem;
-  padding-top: 0.5rem;
+  padding-top: 0.1rem;
   background-color: #335c81;
   display: flex;
   align-items: center;
@@ -44,7 +44,7 @@
   position: relative;
   width: 100%;
   height: 2px;
-  background-color: orange;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,13 +116,12 @@
   transition: all 0.4s ease;
 }
 
-#menu-wrap .toggler:checked ~ .menu {
-  visibility: visible;
-}
-
-#menu-wrap .toggler:checked ~ .menu > div {
-  transform: scale(1);
-  transition-duration: var(--menu-speed);
+#menu-wrap .menu > div > div {
+  text-align: center;
+  max-width: 100vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
 #menu-wrap .toggler:checked ~ .menu > div > div {
@@ -130,12 +129,14 @@
   transition: opacity 0.4s ease;
 }
 
-#menu-wrap .menu > div > div {
-  text-align: center;
-  max-width: 100vw;
-  max-height: 100vh;
-  opacity: 0;
-  transition: opacity 0.4s ease;
+/* SHOW MENU */
+#menu-wrap .toggler:checked ~ .menu {
+  visibility: visible;
+}
+
+#menu-wrap .toggler:checked ~ .menu > div {
+  transform: scale(1);
+  transition-duration: var(--menu-speed);
 }
 
 #menu-wrap .menu > div > div > ul > li {
@@ -151,22 +152,10 @@
   transition: color 0.4s ease;
 }
 
-/* 
- */
-/* Mobile */
+/* /////////////////////////////////////////////// */
+/* MOBILE*/
 
-body {
-  background-color: #335c81;
-  margin-top: 30%;
-  font-size: 16px;
-}
-
-/* body {
-  margin-top: 30%;
-  font-size: 16px;
-} */
-
-#menu-wrapper {
+/* #menu-wrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -199,17 +188,22 @@ nav a:hover {
   background-color: #ffcc66;
   color: #244766;
   cursor: pointer;
+} */
+
+body {
+  background-color: #335c81;
+  margin-top: 20%;
+  font-size: 16px;
 }
 
 div#introduction {
   background-color: #424242;
-  margin: 20% auto 0;
-  width: 90%;
+  margin: 0 auto;
+  width: 100%;
 }
 
 img#intro-pic {
-  margin-left: 5%;
-  margin-top: 5%;
+  margin: 5%;
   width: 90%;
   border-radius: 7px;
 }
@@ -222,7 +216,7 @@ p#bio {
   display: inline-block;
   color: #ffffff;
   font-size: large;
-  max-width: 80%;
+  max-width: 90%;
   text-align: left;
   padding-left: 5%;
 }
@@ -236,9 +230,11 @@ span.contact {
 }
 
 span.sites {
+  font-size: 1.5rem;
   background-color: #504d4d;
   padding: 2%;
-  border: 3px solid #335c81;
+  /* border: 4px solid #335c81; */
+  border: 4px solid #fff;
   border-radius: 7%;
   margin-bottom: 3%;
 }
@@ -248,9 +244,15 @@ span.email {
 }
 
 div#mySites {
+  margin-top: 2%;
+  padding-bottom: 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+a.sites {
+  color: #ffcc66;
 }
 
 h1#tech-skills {
@@ -273,7 +275,9 @@ img.tech {
   padding: 2%;
   width: 70%;
   border: 1px solid black;
-  background-color: rgb(250, 217, 187);
+  /* background-color: rgb(250, 217, 187); */
+  /* background-color: #ffcc66; */
+  background-color: #fff;
   display: block;
 }
 
@@ -281,11 +285,16 @@ img.tech {
 
 h1#projects-intro {
   text-align: center;
-  margin-top: 25%;
+  margin-top: 10%;
+}
+
+span.project-title {
+  color: #ffcc66;
 }
 
 p.project-description {
   text-align: left;
+  margin-top: 5%;
 }
 
 .tech-used {
@@ -293,10 +302,11 @@ p.project-description {
 }
 
 .site-buttons {
-  background-color: #504d4d;
+  font-size: 1.5rem;
   padding: 2%;
-  border: 2px solid #335c81;
+  border: 4px solid #fff;
   border-radius: 7%;
+  color: #ffcc66;
 }
 
 .projects {
@@ -307,6 +317,8 @@ div.project-sites {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 5%;
+  margin-top: 10%;
 }
 
 @media screen and (min-width: 768px) {

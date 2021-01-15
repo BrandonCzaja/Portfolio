@@ -33,6 +33,12 @@ const Home = () => {
               program.
             </p>
 
+            <span class="contact" id="contact-information">
+              Chicago, IL
+            </span>
+            <span class="contact">603-540-3182</span>
+            <span class="contact email">Brandon.Czaja@gmail.com</span>
+
             <div id="mySites">
               <span class="sites">
                 <a href="https://github.com/BrandonCzaja" class="sites">
@@ -48,12 +54,6 @@ const Home = () => {
                 </a>
               </span>
             </div>
-
-            <span class="contact" id="contact-information">
-              Chicago, IL
-            </span>
-            <span class="contact">603-540-3182</span>
-            <span class="contact email">Brandon.Czaja@gmail.com</span>
           </div>
 
           <br />
