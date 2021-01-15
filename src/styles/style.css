@@ -100,13 +100,13 @@ h1 {
   }
 
   div#introduction {
-    /* background-color: #424242; */
-    background-color: teal;
+    background-color: #424242;
     margin: 20% auto 0;
     width: 90%;
   }
 
   img#intro-pic {
+    display: none;
     width: 90%;
     border-radius: 7px;
   }
@@ -173,16 +173,16 @@ h1 {
 }
 
 /* Tablets */
-@media screen and (min-width: 481px) {
+/* @media screen and (min-width: 481px) {
   body,
   p,
   a,
   h4 {
     font-size: 14px;
   }
-}
+} */
 
-/* Laptops */
+/* Laptops
 @media screen and (min-width: 769px) {
   nav {
     background-color: #244766;
@@ -289,5 +289,5 @@ h1 {
 }
 
 /* Hamburger menu */
-@media screen and (max-width: 481) {
-}
+/* @media screen and (max-width: 481) {
+} */
