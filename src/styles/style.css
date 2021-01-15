@@ -165,6 +165,10 @@ h1 {
     text-align: center;
     margin-top: 25%;
   }
+
+  p.project-description {
+    text-align: left;
+  }
 }
 
 /* Tablets */
