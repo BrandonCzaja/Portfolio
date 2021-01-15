@@ -21,18 +21,32 @@ const Project_Images = props => {
             to the rest of the community. Users sign up, log in, and enter the
             game's information.In the next update users will be able to search
             for their games using the Board Game Atlas API. <br />
-            <br /> Technologies used: MongoDB, Express, React, Node (MERN)
+            <br />{" "}
+            <span class="tech-used">
+              Technologies used: MongoDB, Express, React, Node (MERN)
+            </span>
           </p>
 
           <img src={Shelfie} alt="Shelfie" class="projects" />
 
+          {/* <iframe src="https://digital-shelfie.herokuapp.com/" name="digital-shelfie">
+            <p>
+              <a href="https://digital-shelfie.herokuapp.com/" target="digital-shelfie"></a>
+            </p>
+          </iframe> */}
+
           <a
             href="https://github.com/BrandonCzaja/Digital-Shelfie"
             target="_blank"
+            class="site-buttons"
           >
             GitHub
           </a>
-          <a href="https://digital-shelfie.herokuapp.com/" target="_blank">
+          <a
+            href="https://digital-shelfie.herokuapp.com/"
+            target="_blank"
+            class="site-buttons"
+          >
             Live Site
           </a>
         </div>
@@ -45,17 +59,34 @@ const Project_Images = props => {
             accesses the Magic The Gathering API. The next update will allow
             users to view the entire Card Image Gallery for each set by clicking
             the set symbol. <br />
-            <br /> Technologies used: HTML, CSS, JavaScript, jQuery
+            <br />{" "}
+            <span class="tech-used">
+              Technologies used: HTML, CSS, JavaScript, jQuery
+            </span>
           </p>
 
           <img src={MTG_Search} alt="MTG Search" class="projects" />
 
-          <a href="https://github.com/BrandonCzaja/MTGSearch" target="_blank">
+          {/* <iframe
+            src="https://magic-the-gathering-search.vercel.app/"
+            name="mtg"
+          >
+            <p>
+              <a href="https://magic-the-gathering-search.vercel.app/"></a>
+            </p>
+          </iframe> */}
+
+          <a
+            href="https://github.com/BrandonCzaja/MTGSearch"
+            target="_blank"
+            class="site-buttons"
+          >
             GitHub
           </a>
           <a
             href="https://magic-the-gathering-search.vercel.app/"
             target="_blank"
+            class="site-buttons"
           >
             Live Site
           </a>
@@ -67,7 +98,10 @@ const Project_Images = props => {
             authentication and create charitable events for their local
             community. The next update will allow users to search for events in
             their community using Google Maps. <br />
-            <br /> Technologies used: MongoDB, Express, React, Node (MERN)
+            <br />{" "}
+            <span class="tech-used">
+              Technologies used: MongoDB, Express, React, Node (MERN)
+            </span>
           </p>
 
           <img src={Ubuntu} alt="Ubuntu" class="projects ubuntu" />
@@ -76,6 +110,7 @@ const Project_Images = props => {
             href="https://github.com/BrandonCzaja/Ubuntu-Backend"
             class="ubuntu-links"
             target="_blank"
+            class="site-buttons"
           >
             Backend GitHub
           </a>
@@ -83,6 +118,7 @@ const Project_Images = props => {
             href="https://github.com/BrandonCzaja/Ubuntu-Frontend"
             class="ubuntu-links"
             target="_blank"
+            class="site-buttons"
           >
             Frontend GitHub
           </a>
@@ -90,6 +126,7 @@ const Project_Images = props => {
             href="https://practical-jones-b55cd9.netlify.app/"
             class="ubuntu-links"
             target="_blank"
+            class="site-buttons"
           >
             Live Site
           </a>

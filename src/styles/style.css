@@ -79,6 +79,19 @@ h1 {
   margin: 0 auto;
 }
 
+.tech-used {
+  color: #ffcc66;
+}
+
+.site-buttons {
+  background-color: #424242;
+  padding: 0.75%;
+  border: 2px solid #335c81;
+  border-radius: 7%;
+}
+
+/* MEDIA QUERIES */
+
 /* Mobile */
 @media screen and (min-width: 360px) {
   body {
