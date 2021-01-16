@@ -4,7 +4,6 @@ import { useStaticQuery } from "gatsby"
 
 import projects from "../styles/projects.css"
 
-// Projects
 import Shelfie from "../../static/images/Shelfie.png"
 import Ubuntu from "../../static/images/Ubuntu.png"
 import MTG_Search from "../../static/images/MTG_Search.png"
@@ -14,9 +13,9 @@ const Project_Images = props => {
     <div id="container">
       <h1 id="projects-intro">Projects</h1>
       <section id="project-images">
-        <div class="shelfie">
-          <p class="project-description">
-            <span class="project-title">
+        <div className="shelfie">
+          <p className="project-description">
+            <span className="project-title">
               <em>Digital Shelfie </em>
             </span>
             is an application that lets board gamers show off their collection
@@ -24,39 +23,39 @@ const Project_Images = props => {
             game's information.In the next update users will be able to search
             for their games using the Board Game Atlas API. <br />
             <br />{" "}
-            <span class="tech-used">
+            <span className="tech-used">
               Technologies used: MongoDB, Express, React, Node (MERN)
             </span>
           </p>
 
-          <img src={Shelfie} alt="Shelfie" class="projects" />
+          <img src={Shelfie} alt="Shelfie" className="projects" />
 
           {/* <iframe src="https://digital-shelfie.herokuapp.com/" name="digital-shelfie">
             <p>
               <a href="https://digital-shelfie.herokuapp.com/" target="digital-shelfie"></a>
             </p>
           </iframe> */}
-          <div class="project-sites">
+          <div className="project-sites">
             <a
               href="https://github.com/BrandonCzaja/Digital-Shelfie"
               target="_blank"
-              class="site-buttons"
+              className="site-buttons"
             >
               GitHub
             </a>
             <a
               href="https://digital-shelfie.herokuapp.com/"
               target="_blank"
-              class="site-buttons"
+              className="site-buttons"
             >
               Live Site
             </a>
           </div>
         </div>
 
-        <div class="mtg">
-          <p class="project-description">
-            <span class="project-title">
+        <div className="mtg">
+          <p className="project-description">
+            <span className="project-title">
               <em>MTG Search </em>
             </span>
             allows players to to search for individual card by sending fetch
@@ -66,12 +65,12 @@ const Project_Images = props => {
             entire Card Image Gallery for each set by clicking the set symbol.{" "}
             <br />
             <br />{" "}
-            <span class="tech-used">
+            <span className="tech-used">
               Technologies used: HTML, CSS, JavaScript, jQuery
             </span>
           </p>
 
-          <img src={MTG_Search} alt="MTG Search" class="projects" />
+          <img src={MTG_Search} alt="MTG Search" className="projects" />
 
           {/* <iframe
             src="https://magic-the-gathering-search.vercel.app/"
@@ -81,27 +80,27 @@ const Project_Images = props => {
               <a href="https://magic-the-gathering-search.vercel.app/"></a>
             </p>
           </iframe> */}
-          <div class="project-sites">
+          <div className="project-sites">
             <a
               href="https://github.com/BrandonCzaja/MTGSearch"
               target="_blank"
-              class="site-buttons"
+              className="site-buttons"
             >
               GitHub
             </a>
             <a
               href="https://magic-the-gathering-search.vercel.app/"
               target="_blank"
-              class="site-buttons"
+              className="site-buttons"
             >
               Live Site
             </a>
           </div>
         </div>
 
-        <div class="charity">
-          <p class="project-description">
-            <span class="project-title">
+        <div className="charity">
+          <p className="project-description">
+            <span className="project-title">
               <em>Ubuntu: I am because we are</em>
             </span>
             , allows users to login with JWT authentication and create
@@ -109,35 +108,35 @@ const Project_Images = props => {
             allow users to search for events in their community using Google
             Maps. <br />
             <br />{" "}
-            <span class="tech-used">
+            <span className="tech-used">
               Technologies used: MongoDB, Express, React, Node (MERN)
             </span>
           </p>
 
-          <img src={Ubuntu} alt="Ubuntu" class="projects ubuntu" />
+          <img src={Ubuntu} alt="Ubuntu" className="projects ubuntu" />
 
-          <div class="project-sites">
+          <div className="project-sites">
             <a
               href="https://github.com/BrandonCzaja/Ubuntu-Backend"
-              class="ubuntu-links"
+              className="ubuntu-links"
               target="_blank"
-              class="site-buttons"
+              className="site-buttons"
             >
               Backend GitHub
             </a>
             <a
               href="https://github.com/BrandonCzaja/Ubuntu-Frontend"
-              class="ubuntu-links"
+              className="ubuntu-links"
               target="_blank"
-              class="site-buttons"
+              className="site-buttons"
             >
               Frontend GitHub
             </a>
             <a
               href="https://practical-jones-b55cd9.netlify.app/"
-              class="ubuntu-links"
+              className="ubuntu-links"
               target="_blank"
-              class="site-buttons"
+              className="site-buttons"
             >
               Live Site
             </a>

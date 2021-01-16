@@ -1,8 +1,6 @@
 // Styling and Scripts go here
 
 import React from "react"
-import { Link } from "gatsby"
-import { useStaticQuery } from "gatsby"
 
 const Layout = props => {
   return (
@@ -12,11 +10,11 @@ const Layout = props => {
       </head>
 
       <div id="menu-wrap">
-        <input type="checkbox" class="toggler" />
-        <div class="hamburger">
+        <input type="checkbox" className="toggler" />
+        <div className="hamburger">
           <div></div>
         </div>
-        <div class="menu">
+        <div className="menu">
           <div>
             <div>
               <ul>
