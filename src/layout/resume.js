@@ -1,8 +1,9 @@
 import React from "react"
 
-const Resume = () => {
+const myResume = () => {
   return (
     <>
+      <h1 id="resume">Resume</h1>
       <div id="outer">
         <div name="resume" style={{ marginTop: "5%" }}>
           <iframe
@@ -23,4 +24,4 @@ const Resume = () => {
   )
 }
 
-export default Resume
+export default myResume

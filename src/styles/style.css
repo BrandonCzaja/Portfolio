@@ -288,6 +288,11 @@ div.project-sites {
   margin-top: 10%;
 }
 
+h1#resume {
+  text-align: center;
+  margin-top: 10%;
+}
+
 /* /////////////////////////////////////////////////// */
 @media screen and (min-width: 768px) {
   /* For Tablet */
@@ -429,6 +434,12 @@ div.project-sites {
     justify-content: space-evenly;
     margin-bottom: 5%;
     margin-top: 10%;
+  }
+
+  h1#resume {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: -2%;
   }
 }
 
@@ -579,5 +590,13 @@ div.project-sites {
     justify-content: space-evenly;
     margin-bottom: 5%;
     margin-top: 10%;
+  }
+
+  h1#resume {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: -3%;
+    font-weight: 500;
+    margin-bottom: -0.1%;
   }
 }
