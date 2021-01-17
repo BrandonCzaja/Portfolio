@@ -35,22 +35,6 @@ const Layout = props => {
           </div>
         </div>
       </div>
-
-      {/*<nav>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/resume">Resume</Link>
-            </li>
-             <li>
-              <Link to="/blogs">Blogs</Link>
-            </li> 
-          </nav>*/}
-
       <main>{props.children}</main>
     </>
   )
