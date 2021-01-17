@@ -3,7 +3,6 @@ import React from "react"
 const myResume = props => {
   return (
     <div>
-      <h1 id="resume">Resume</h1>
       <div id="outer">
         <div name="resume" style={{ marginTop: "5%" }}>
           <iframe
@@ -15,9 +14,7 @@ const myResume = props => {
               height: 700,
               overflow: "auto",
             }}
-          >
-            Resume
-          </iframe>
+          ></iframe>
         </div>
       </div>
     </div>

@@ -25,7 +25,13 @@ const Layout = props => {
                   <a href="/projects">Projects</a>
                 </li>
                 <li>
-                  <a href="/resume">Resume</a>
+                  {/* <a href="/resume">Resume</a> */}
+                  <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vQpCC2u5cuHynbBBMXQWS33f5xg1S6dhZJ0yv0NMYVF8jGjafKbdG2paMQFJ3sLQuo5jg4BFCUuNcXk/pub"
+                    target="_blank"
+                  >
+                    Resume
+                  </a>
                 </li>
                 <li>
                   <a href="/blogs">Blog</a>
