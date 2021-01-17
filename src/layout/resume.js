@@ -1,8 +1,8 @@
 import React from "react"
 
-const myResume = () => {
+const myResume = props => {
   return (
-    <>
+    <div>
       <h1 id="resume">Resume</h1>
       <div id="outer">
         <div name="resume" style={{ marginTop: "5%" }}>
@@ -20,7 +20,7 @@ const myResume = () => {
           </iframe>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
