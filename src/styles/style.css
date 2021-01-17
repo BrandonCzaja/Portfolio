@@ -600,3 +600,311 @@ h1#resume {
     margin-bottom: -0.1%;
   }
 }
+
+@media screen and (min-width: 768px) {
+  /* For Tablet */
+  body {
+    background-color: #335c81;
+    margin-top: 10%;
+    font-size: 16px;
+  }
+
+  div#introduction {
+    background-color: #424242;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  img#intro-pic {
+    margin: 5%;
+    width: 90%;
+    border-radius: 7px;
+  }
+
+  span#greeting {
+    font-size: larger;
+  }
+
+  p#bio {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 2rem;
+    max-width: 90%;
+    text-align: left;
+    padding-left: 5%;
+  }
+
+  span.contact {
+    color: #ffffff;
+    display: block;
+    font-size: 2rem;
+    width: 50%;
+    margin-left: 5%;
+  }
+
+  span.sites {
+    font-size: 1.5rem;
+    background-color: #504d4d;
+    padding: 2%;
+    /* border: 4px solid #335c81; */
+    border: 4px solid #fff;
+    border-radius: 7%;
+    margin-bottom: 3%;
+  }
+
+  span.email {
+    padding-bottom: 5%;
+  }
+
+  div#mySites {
+    margin-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  a.sites {
+    color: #ffcc66;
+    font-size: 2rem;
+  }
+
+  h1#tech-skills {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  section#skills {
+    width: 100%;
+    margin: 0;
+  }
+
+  img.tech {
+    margin: 4% auto;
+    padding: 2%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+    /* background-color: rgb(250, 217, 187); */
+    /* background-color: #ffcc66; */
+    background-color: #fff;
+    display: block;
+  }
+
+  /* Projects */
+
+  h1#projects-intro {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: -2%;
+  }
+
+  span.project-title {
+    color: #ffcc66;
+  }
+
+  p.project-description {
+    text-align: left;
+    width: 90%;
+    font-size: 1.5rem;
+    margin-top: 5%;
+  }
+
+  .tech-used {
+    color: #ffcc66;
+  }
+
+  img.projects {
+    width: 90%;
+  }
+
+  .site-buttons {
+    font-size: 1.5rem;
+    padding: 2%;
+    border: 4px solid #fff;
+    border-radius: 7%;
+    color: #ffcc66;
+  }
+
+  .projects {
+    margin-bottom: 5%;
+  }
+
+  div.project-sites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top: 10%;
+  }
+
+  h1#resume {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: -2%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* For Desktop */
+  body {
+    background-color: #335c81;
+    margin-top: 7%;
+    font-size: 16px;
+  }
+
+  div#introduction {
+    background-color: #424242;
+    margin-left: auto;
+    margin-top: -2%;
+    width: 90%;
+  }
+
+  /* #bio {
+    float: right;
+    width: 40%;
+  } */
+
+  img#intro-pic {
+    margin: 3%;
+    margin-bottom: 1%;
+    width: 30%;
+    height: auto;
+    border-radius: 7px;
+  }
+
+  span#greeting {
+    font-size: larger;
+  }
+
+  p#bio {
+    color: #ffffff;
+    font-size: 1.5rem;
+    max-width: 90%;
+    text-align: left;
+    padding-left: 3%;
+    margin-bottom: 5%;
+  }
+
+  span.contact {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.5rem;
+    width: 50%;
+    margin-left: 3%;
+  }
+
+  span.sites {
+    font-size: 1.5rem;
+    background-color: #504d4d;
+    padding: 2%;
+    /* border: 4px solid #335c81; */
+    border: 4px solid #fff;
+    border-radius: 7%;
+    margin-bottom: 3%;
+  }
+
+  span.email {
+    padding-bottom: 5%;
+  }
+
+  div#mySites {
+    margin-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  a.sites {
+    color: #ffcc66;
+    font-size: 2rem;
+  }
+
+  /* Tech */
+
+  section#skills {
+    margin-top: 4%;
+    width: 85%;
+    flex: row;
+    flex-wrap: wrap;
+    display: block;
+    margin-left: 15%;
+  }
+
+  img.tech {
+    width: 15%;
+    height: 200px;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border: 1px solid black;
+    background-color: beige;
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Projects */
+
+  h1#projects-intro {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: -3%;
+    font-weight: 500;
+    margin-bottom: -0.1%;
+  }
+
+  span.project-title {
+    color: #ffcc66;
+  }
+
+  p.project-description {
+    text-align: left;
+    width: 90%;
+    font-size: 2rem;
+    margin-top: 2%;
+  }
+
+  .tech-used {
+    color: #ffcc66;
+  }
+
+  img.projects {
+    width: 90%;
+    height: auto;
+    margin-bottom: -4%;
+  }
+
+  .site-buttons {
+    font-size: 1.5rem;
+    padding: 2%;
+    border: 4px solid #fff;
+    border-radius: 7%;
+    color: #ffcc66;
+  }
+
+  .projects {
+    margin-bottom: 5%;
+  }
+
+  div.project-sites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top: 10%;
+  }
+
+  h1#resume {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: -3%;
+    font-weight: 500;
+    margin-bottom: -0.1%;
+  }
+}
