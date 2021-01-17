@@ -19,7 +19,6 @@ const Home = () => {
       <body>
         <div id="introduction">
           <img src={headshot} id="intro-pic" />
-
           <p className="bio" id="bio">
             <span id="greeting">Hello! I'm Brandon Czaja.</span> <br />
             <br /> I am a team-oriented, goal-driven, full stack developer

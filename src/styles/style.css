@@ -753,80 +753,26 @@ h1#resume {
 @media screen and (min-width: 1920px) {
   /* For Desktop */
   body {
-    background-color: #335c81;
     margin-top: 7%;
-    font-size: 16px;
   }
 
   div#introduction {
     background-color: #424242;
     margin-left: auto;
-    margin-top: -2%;
-    width: 90%;
+    width: 80%;
   }
 
-  /* #bio {
-    float: right;
-    width: 40%;
-  } */
-
   img#intro-pic {
-    margin: 3%;
-    margin-bottom: 1%;
     width: 30%;
     height: auto;
     border-radius: 7px;
   }
 
-  span#greeting {
-    font-size: larger;
-  }
-
-  p#bio {
-    color: #ffffff;
-    font-size: 1.5rem;
-    max-width: 90%;
-    text-align: left;
-    padding-left: 3%;
-    margin-bottom: 5%;
-  }
-
-  span.contact {
-    color: #ffffff;
-    display: inline-block;
-    font-size: 1.5rem;
-    width: 50%;
-    margin-left: 3%;
-  }
-
-  span.sites {
-    font-size: 1.5rem;
-    background-color: #504d4d;
-    padding: 2%;
-    /* border: 4px solid #335c81; */
-    border: 4px solid #fff;
-    border-radius: 7%;
-    margin-bottom: 3%;
-  }
-
-  span.email {
-    padding-bottom: 5%;
-  }
-
-  div#mySites {
-    margin-top: 2%;
-    padding-bottom: 2%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  a.sites {
-    color: #ffcc66;
-    font-size: 2rem;
-  }
-
   /* Tech */
+
+  h1#tech-skills {
+    margin-bottom: -3%;
+  }
 
   section#skills {
     margin-top: 4%;
@@ -844,7 +790,7 @@ h1#resume {
     margin-top: 2%;
     margin-left: 1%;
     border: 1px solid black;
-    background-color: beige;
+    background-color: #fff;
     position: relative;
     display: inline-block;
   }
@@ -896,8 +842,8 @@ h1#resume {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 5%;
-    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-top: 5%;
   }
 
   h1#resume {
