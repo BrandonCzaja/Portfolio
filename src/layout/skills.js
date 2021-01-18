@@ -25,9 +25,9 @@ const Skills = props => {
       <h1 id="tech-skills">Tech Skills</h1>
 
       <section id="skills">
-        <img src={css} alt="CSS 3" class="tech " />
-
         <img src={html5} alt="HTML 5" class="tech" />
+
+        <img src={css} alt="CSS 3" class="tech " />
 
         <img src={javascript} alt="Javascript" class="tech" />
 
