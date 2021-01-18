@@ -30,9 +30,9 @@ const Layout = props => {
                     Resume
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/blogs">Blog</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
