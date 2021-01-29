@@ -53,7 +53,7 @@ const Project_Images = props => {
           </div>
         </div>
 
-        <div className="mtg">
+        {/* <div className="mtg">
           <p className="project-description">
             <span className="project-title">
               <em>MTG Search </em>
@@ -72,14 +72,7 @@ const Project_Images = props => {
 
           <img src={MTG_Search} alt="MTG Search" className="projects" />
 
-          {/* <iframe
-            src="https://magic-the-gathering-search.vercel.app/"
-            name="mtg"
-          >
-            <p>
-              <a href="https://magic-the-gathering-search.vercel.app/"></a>
-            </p>
-          </iframe> */}
+          
           <div className="project-sites">
             <a
               href="https://github.com/BrandonCzaja/MTGSearch"
@@ -96,7 +89,7 @@ const Project_Images = props => {
               Live Site
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className="charity">
           <p className="project-description">
