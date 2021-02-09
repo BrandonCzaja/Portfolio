@@ -53,7 +53,7 @@ const Project_Images = props => {
           </div>
         </div>
 
-        {/* <div className="mtg">
+        <div className="mtg">
           <p className="project-description">
             <span className="project-title">
               <em>MTG Search </em>
@@ -62,9 +62,9 @@ const Project_Images = props => {
             requests to the Scryfall API. Players can also view the symbols for
             each set by clicking through the carousel which accesses the Magic
             The Gathering API. The next update will allow users to view the
-            entire Card Image Gallery for each set by clicking the set symbol.{" "}
+            entire Card Image Gallery for each set by clicking the set symbol.
             <br />
-            <br />{" "}
+            <br />
             <span className="tech-used">
               Technologies used: HTML, CSS, JavaScript, jQuery
             </span>
@@ -72,7 +72,6 @@ const Project_Images = props => {
 
           <img src={MTG_Search} alt="MTG Search" className="projects" />
 
-          
           <div className="project-sites">
             <a
               href="https://github.com/BrandonCzaja/MTGSearch"
@@ -89,7 +88,7 @@ const Project_Images = props => {
               Live Site
             </a>
           </div>
-        </div> */}
+        </div>
 
         <div className="charity">
           <p className="project-description">
