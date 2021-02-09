@@ -7,6 +7,7 @@ import projects from "../styles/projects.css"
 import Shelfie from "../../static/images/Shelfie.png"
 import Ubuntu from "../../static/images/Ubuntu.png"
 import MTG_Search from "../../static/images/MTG_Search.png"
+import MTG from "../../static/images/MTG.png"
 
 const Project_Images = props => {
   return (
@@ -70,7 +71,7 @@ const Project_Images = props => {
             </span>
           </p>
 
-          <img src={MTG_Search} alt="MTG Search" className="projects" />
+          <img src={MTG} alt="MTG Search" className="projects" />
 
           <div className="project-sites">
             <a
