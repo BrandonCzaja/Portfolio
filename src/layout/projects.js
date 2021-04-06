@@ -14,7 +14,7 @@ const Project_Images = props => {
     <div id="container">
       <h1 id="projects-intro">Projects</h1>
       <section id="project-images">
-        <div className="shelfie">
+        {/* <div className="shelfie">
           <p className="project-description">
             <span className="project-title">
               <em>Digital Shelfie </em>
@@ -36,7 +36,7 @@ const Project_Images = props => {
               <a href="https://digital-shelfie.herokuapp.com/" target="digital-shelfie"></a>
             </p>
           </iframe> */}
-          <div className="project-sites">
+          {/* <div className="project-sites">
             <a
               href="https://github.com/BrandonCzaja/Digital-Shelfie"
               target="_blank"
@@ -52,7 +52,7 @@ const Project_Images = props => {
               Live Site
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className="mtg">
           <p className="project-description">
