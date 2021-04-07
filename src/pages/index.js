@@ -38,7 +38,7 @@ const Home = () => {
 
           <div id="mySites">
             <span className="sites">
-              <a href="https://github.com/BrandonCzaja" className="sites">
+              <a href="https://github.com/BrandonCzaja" className="sites" target='_blank'>
                 GitHub
               </a>
             </span>
@@ -46,6 +46,7 @@ const Home = () => {
               <a
                 href="https://www.linkedin.com/in/brandon-czaja/"
                 className="sites"
+                target='_blank'
               >
                 Linkedin
               </a>
