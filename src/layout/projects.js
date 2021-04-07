@@ -25,7 +25,7 @@ const Project_Images = props => {
             for their games using the Board Game Atlas API. <br />
             <br />{" "}
             <span className="tech-used">
-              Technologies used: MongoDB, Express, React, Node (MERN)
+              Technologies used: MongoDB, Express-React-Views
             </span>
           </p>
 
